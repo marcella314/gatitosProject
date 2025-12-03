@@ -42,24 +42,6 @@ O arquivo gatitosGato.js:
 - Sorteia uma imagem a cada clique
 - Atualiza automaticamente o <img> na tela
 
-📂 Estrutura do projeto
-
-gatitosProject/
-│
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── gatitos/
-│       │       └── ListaGatosServlet.java
-│       └── webapp/
-│           ├── cats_in_the_cradle/
-│           │   └── (todas as imagens dos gatos)
-│           ├── gatitos.html
-│           ├── gatitosGato.js
-│           └── WEB-INF/
-│               └── web.xml
-
-
 🚀 Como executar
 
 - Importe o projeto no Eclipse
