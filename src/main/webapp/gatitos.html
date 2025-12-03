@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Gatitos</title>
+
+    <style>
+        body {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #000;
+        }
+
+        iframe {
+            margin-top: 10px;
+            border: 3px solid #555;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #000;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background: linear-gradient(to bottom, #3a3a3a, #000000);
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #555;
+            transform: scale(1.05);
+        }
+
+        img {
+            margin-top: 30px;
+            max-width: 90%;
+            height: auto;
+            border-radius: 12px;
+            border: 3px solid #444;
+            box-shadow: 0 0 20px #000;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        img.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Veja gatitos fofos ao som de <i>Cats in the Cradle</i></h1>
+
+<!-- 🎵 IFRAME DA MÚSICA -->
+<iframe width="560" height="315" 
+	src="https://www.youtube.com/embed/B32yjbCSVpU?si=BwLSwfbZUyPb5V48" 
+	title="YouTube video player" 
+	frameborder="0" 
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+	referrerpolicy="strict-origin-when-cross-origin" 
+	allowfullscreen>
+</iframe>
+
+<br><br>
+
+<button onclick="mostrarGato()">Veja um gato</button>
+
+<br><br>
+
+<img id="imgGato" width="400" alt="Seu gato aparecerá aqui">
+
+<script src="gatitosGato.js"></script>
+
+</body>
+</html>
