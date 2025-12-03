@@ -1,0 +1,19 @@
+# Arquivos/pastas do Eclipse
+.classpath
+.project
+.settings/
+
+# Build e arquivos gerados
+build/
+bin/
+target/
+
+# Outros comuns
+*.log
+*.tmp
+*.class
+
+# IntelliJ/VS Code (se algum dia abrir lá)
+.idea/
+*.iml
+.vscode/
