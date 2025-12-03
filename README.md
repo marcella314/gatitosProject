@@ -11,7 +11,7 @@ Este projeto é uma aplicação web simples que:
 
 O arquivo gatitos.html:
 
-Carrega a lista via JavaScript
+- Carrega a lista via JavaScript
 - Exibe um botão "Veja um gato"
 - Mostra aleatoriamente uma das imagens da pasta
 - Toca a música “Cats in the Cradle” através de um iframe do YouTube
